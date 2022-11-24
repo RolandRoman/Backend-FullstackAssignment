@@ -25,4 +25,5 @@ http://127.0.0.1:5000/api/v1/pondinfo/<pondname>
 ![alt text](https://user-images.githubusercontent.com/71580615/203737970-21010e81-1360-4062-842a-58515ab8d699.jpeg)
 
 [GET] Get Pond Info Based by it’s Name
-http://127.0.0.1:5000/api/v1/pondinfo/<pondname>
+http://127.0.0.1:5000/api/v1/pondinfo/<pondname>  
+![alt text](https://user-images.githubusercontent.com/71580615/203740106-f0d3a410-6570-4391-90a1-b09368eeff00.jpg)
