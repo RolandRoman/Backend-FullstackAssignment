@@ -9,7 +9,7 @@ Members :
 - Roland Roman Topuh 		- 1313621026
 
 Dokumentasi :
-![alt text]((https://cdn.discordapp.com/attachments/1045232403343495199/1045233580055474246/Screenshot_from_2022-11-24_14-04-09.png))
+![alt text](https://user-images.githubusercontent.com/71580615/203736983-4aa22967-88fb-4765-b2e5-f60050d76be7.jpg)
 Database Type of each data
 
 [POST] Pond Registration
