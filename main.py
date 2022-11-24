@@ -12,3 +12,9 @@ def regis():
         return "Gak Bisa"
     result=db.pond.insert_one(getdata)
     return "OK"
+
+@app.route("/api/v1/pondinfo/<pondname>",methods=["PUT"])
+def update(pondname):
+    getdata=request.get_json()
+    result=db.pond.update_one( {"name":pondname} , { "$set" : getdata})
+    return "OK"
