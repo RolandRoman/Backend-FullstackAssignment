@@ -18,3 +18,10 @@ def update(pondname):
     getdata=request.get_json()
     result=db.pond.update_one( {"name":pondname} , { "$set" : getdata})
     return "OK"
+
+# Code buat update data, data terupdate sesuai dengan parameter pondname
+@app.route("/api/v1/pondinfo/<pondname>",methods=["PUT"])
+def update(pondname):
+    getdata=request.get_json()
+    result=db.pond.update_one( {"name":pondname} , { "$set" : getdata})
+    return "OK"
